@@ -29,8 +29,14 @@
                 <li class="nav-item">
                     <a class="nav-link lemon-milk-regular" href="#contacto" onclick="cerrar()">Contactanos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link lemon-milk-regular" href="clientes.php" onclick="cerrar()">Clientes</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle lemon-milk-regular" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Clientes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="clientes.php">Todos</a></li>
+                        <li><a class="dropdown-item" href="valeria_lopez.php">Fotógrafa Valeria López</a></li>
+                    </ul>
                 </li>
             </ul>
             </div>
