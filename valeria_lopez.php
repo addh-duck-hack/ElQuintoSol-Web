@@ -29,14 +29,11 @@
                 <li class="nav-item">
                     <a class="nav-link lemon-milk-regular" href="index.php#contacto" onclick="cerrar()">Contactanos</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle lemon-milk-regular" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Clientes
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="clientes.php">Todos</a></li>
-                        <li><a class="dropdown-item" href="#">Fotógrafa Valeria López</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link lemon-milk-regular" href="#" onclick="cerrar()">Talentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link lemon-milk-regular" href="clientes.php" onclick="cerrar()">Clientes</a>
                 </li>
             </ul>
             </div>
@@ -45,16 +42,16 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 msg-inicial lemon-milk-bold">
-                <h2 style="font-size: 4rem;">Fotógrafa Valeria López</h2>
+            <div class="col-12 msg-inicial-talentos lemon-milk-bold">
+                <h2>Fotógrafa Valeria López</h2>
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <embed src="files/Portafolio_2024.pdf" type="application/pdf" width="100%" height="1000px" />
+            <div class="col-12 pdf-embed">
+                <embed src="files/Portafolio_2024.pdf" type="application/pdf"/>
             </div>
         </div>
     </div>

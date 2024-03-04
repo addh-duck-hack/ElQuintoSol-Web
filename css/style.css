@@ -48,6 +48,23 @@ body {
     color: whitesmoke;
 }
 
+.msg-inicial-talentos{
+    padding: 2em;
+}
+
+.msg-inicial-talentos > h2{
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
+
+.pdf-embed > embed{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+}
+
 .youtube-container, .youtube-container-clientes{
     width: 100%;
     margin-right: auto;
@@ -288,5 +305,15 @@ body {
 
     .youtube-container-clientes > .embed-content{
         height: 25rem;
+    }
+
+    .msg-inicial-talentos > h2{
+        text-align: left;
+        font-size: 3rem;
+    }
+
+    .pdf-embed > embed{
+        width: 100%;
+        height: 1000px;
     }
 }
