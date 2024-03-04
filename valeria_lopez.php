@@ -13,7 +13,7 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/resources/logo-new5.jpeg" alt="" width="285" height="45">
+                <img src="resources/logo-new5.jpeg" alt="" width="285" height="45">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 pdf-embed">
-                <embed src="files/Portafolio_2024.pdf" type="application/pdf" width="100%"/>
+                <embed src="files/Portafolio_2024.pdf" type="application/pdf">
             </div>
         </div>
     </div>
