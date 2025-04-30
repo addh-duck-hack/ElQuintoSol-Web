@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  quintosolelquintosolmarketing.com:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: elquintosolmarketing.com
+    restart: always
+    ports:
+      - 86:80
+    networks:
+      - npm
+      - elquintosolmarketing.com
+
+networks:
+  elquintosolmarketing.com:
+    name: elquintosolmarketing.com
+    driver: bridge
+  npm:
+    external: true
