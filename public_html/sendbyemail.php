@@ -85,6 +85,7 @@
                             $mail->Port = 587;
 
                             // Configuración del correo
+                            $mail->CharSet = 'UTF-8';
                             $mail->setFrom('contacto@elquintosolmarketing.com', 'El Quinto Sol');
                             $mail->addAddress($email_to);
                             $mail->Subject = $email_subject;
