@@ -9,11 +9,13 @@ services:
     restart: always
     networks:
       - npm
-      - elquintosolmarketing.com-net
 
 networks:
-  elquintosolmarketing.com-net:
-    name: elquintosolmarketing.com-net
-    driver: bridge
+  # Solo la red externa de Nginx Proxy Manager. Antes había además una red
+  # bridge propia (elquintosolmarketing.com-net) con un solo contenedor: no aportaba nada (todo entra
+  # por NPM) y cada red gasta un rango del pool de IPs de Docker, compartido por
+  # todos los proyectos del servidor; al agotarse, `compose up` falla con "all
+  # predefined address pools have been fully subnetted". Si quedó huérfana tras
+  # el `up -d`, bórrala con `docker network rm elquintosolmarketing.com-net`.
   npm:
     external: true
