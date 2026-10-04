@@ -80,7 +80,11 @@
                             $mail->Host = 'mail.elquintosolmarketing.com';
                             $mail->SMTPAuth = true;
                             $mail->Username = 'contacto@elquintosolmarketing.com';
-                            $mail->Password = 'cP2RXSKfEj'; // Cambia esto por la contraseña real
+                            // Viene de SMTP_PASSWORD en el .env del servidor (ver docker-compose.yaml)
+                            $mail->Password = getenv('SMTP_PASSWORD');
+                            if ($mail->Password === false || $mail->Password === '') {
+                                throw new Exception('Falta configurar SMTP_PASSWORD en el servidor.');
+                            }
                             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                             $mail->Port = 587;
 
