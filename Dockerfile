@@ -1,4 +1,4 @@
-FROM php:8.3-apache
+FROM php:8.3.36-apache
 
 # Instalar dependencias necesarias, incluido Composer
 RUN apt-get update && apt-get install -y \
