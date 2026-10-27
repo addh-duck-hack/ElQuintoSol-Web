@@ -144,7 +144,7 @@
                 <div class="col-12 lemon-milk-light">
                     <p>&copy; 2025 <a href="http://elquintosolmarketing.com">El quinto sol</a><br>Todos los derechos reservados.</p>
                     <br>
-                    <p>Designed by <a href="http://mx.duck-hack.cloud" target="_blank" rel="noopener noreferrer">Duck-Hack</a></p>
+                    <p>Designed by <a href="https://duck-hack.cloud" target="_blank" rel="noopener noreferrer">Duck-Hack</a></p>
                 </div>
             </div>
         </div>
